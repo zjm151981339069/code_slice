@@ -1,0 +1,18 @@
+2018-07-23 09:52:23.902  INFO 7592 --- [restartedMain] c.z.s.codeSlice.CodeSliceApplication     : Starting CodeSliceApplication on cs-PC with PID 7592 (C:\ZJM\IN_E\eclipse_workSpace\codeSlice\target\classes started by Administrator in C:\ZJM\IN_E\eclipse_workSpace\codeSlice)
+2018-07-23 09:52:23.904  INFO 7592 --- [restartedMain] c.z.s.codeSlice.CodeSliceApplication     : No active profile set, falling back to default profiles: default
+2018-07-23 09:52:25.370  WARN 7592 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zjm.springBoot.codeSlice]' package. Please check your configuration.
+2018-07-23 09:52:26.661  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 09:52:26.662  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 09:52:26.825  INFO 7592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-23 09:52:27.327  INFO 7592 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-07-23 09:52:27.718  INFO 7592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-23 09:52:27.810  INFO 7592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-07-23 09:52:27.812  INFO 7592 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-07-23 09:52:27.814  INFO 7592 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-07-23 09:52:27.866  INFO 7592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-23 09:52:28.002  INFO 7592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2018-07-23 09:52:28.933  WARN 7592 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-23 09:52:29.634  WARN 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-07-23 09:52:29.785  INFO 7592 --- [restartedMain] c.z.s.codeSlice.CodeSliceApplication     : Started CodeSliceApplication in 6.304 seconds (JVM running for 6.941)
